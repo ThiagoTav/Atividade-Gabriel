@@ -1,0 +1,34 @@
+/* Cadastro.css */
+.cadastro-container {
+    background-color: #f0f0f0; /* Cinza claro, ajuste conforme necessário */
+    padding: 20px; /* Espaçamento interno */
+    border: 1px solid #ccc; /* Borda cinza, ajuste conforme necessário */
+    border-radius: 20px; /* Borda arredondada, ajuste conforme necessário */
+    margin: 20px; /* Espaçamento externo */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Alinhar no canto esquerdo da página */
+    width: 230px; /* Largura da borda, ajuste conforme necessário */
+  }
+  
+  .cadastro-container input,
+  .cadastro-container select {
+    margin-bottom: 10px; /* Espaçamento entre os campos */
+  }
+  
+  .cadastro-container button {
+    margin-top: 10px; /* Espaçamento acima do botão */
+  }
+  
+/* App.css ou outro arquivo para estilos globais */
+.page-container {
+    display: flex;
+    justify-content: space-between; /* Adiciona espaço entre os componentes */
+    margin: 20px; /* Adiciona um espaçamento externo geral */
+  }
+
+  /* Adicione estas regras ao seu arquivo de estilos (por exemplo, App.css) */
+.titulo {
+    text-align: center; /* Centraliza o texto */
+    margin-bottom: 100px; /* Adiciona espaço abaixo do título */
+  }

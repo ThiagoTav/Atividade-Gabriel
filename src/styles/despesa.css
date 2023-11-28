@@ -1,0 +1,85 @@
+/* Receita.css */
+.despesa-container {
+    background-color: #f0f0f0; /* Cinza claro, ajuste conforme necessário */
+    padding: 20px; /* Espaçamento interno */
+    border: 1px solid #ccc; /* Borda cinza, ajuste conforme necessário */
+    border-radius: 20px; /* Borda arredondada, ajuste conforme necessário */
+    margin: 20px; /* Espaçamento externo */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Alinhar no canto esquerdo da página */
+    width: auto; /* Largura automática para se ajustar ao conteúdo */
+    max-height: 240px; /* Altura fixa, ajuste conforme necessário */
+    transition: height 0.5s; /* Adiciona uma transição suave na mudança de altura */
+    overflow-y: auto;
+  
+  }
+  
+  .despesa-container input,
+  .despesa-container select {
+    margin-bottom: 10px; /* Espaçamento entre os campos */
+  }
+  
+  .despesa-container button {
+    margin-top: 10px; /* Espaçamento acima do botão */
+  }
+  
+  /* Adicione essas regras para espaçamento entre as colunas na tabela */
+  .despesa-container table {
+    border-collapse: separate;
+    border-spacing: 10px; /* Ajuste conforme necessário */
+  }
+  
+  .despesa-container th,
+  .despesa-container td {
+    padding: 10px; /* Adicione algum preenchimento interno nas células */
+  }
+  
+  /* Limpeza de flutuação */
+  .despesa-container::after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+    
+    /* Adiciona um estilo para a barra de rolagem no Firefox */
+    .despesa-container {
+      scrollbar-width: thin; /* Largura da barra de rolagem */
+      scrollbar-color: #888 transparent; /* Cor da barra de rolagem e cor de fundo */
+    }
+    
+    /* Adiciona um estilo para a barra de rolagem no Chrome/Safari */
+    .despesa-container::-webkit-scrollbar {
+      width: 5px; /* Largura da barra de rolagem */
+    }
+    
+    .despesa-container::-webkit-scrollbar-thumb {
+      background-color: #888; /* Cor da barra de rolagem */
+    }
+    
+    .despesa-container::-webkit-scrollbar-track {
+      background-color: #f0f0f0; /* Cor de fundo da barra de rolagem */
+    }
+  
+  
+  
+  /* Adiciona um estilo básico para a barra de rolagem no Chrome/Safari */
+  .despesa-container::-webkit-scrollbar {
+      width: 5px; /* Largura da barra de rolagem */
+  }
+    
+    .despesa-container::-webkit-scrollbar-thumb {
+      background-color: #888; /* Cor da barra de rolagem */
+    }
+    
+    .despesa-container::-webkit-scrollbar-track {
+      background-color: #f0f0f0; /* Cor de fundo da barra de rolagem */
+      border-radius: 10px; /* Adiciona borda arredondada à área de rolagem */
+      padding: 10px; /* Adiciona preenchimento à área de rolagem */
+    }
+    
+    /* Adiciona um estilo básico para a barra de rolagem no Firefox */
+    .despesa-container {
+      scrollbar-width: thick; /* Largura da barra de rolagem */
+      scrollbar-color: #888 #f0f0f0; /* Cor da barra de rolagem e cor de fundo */
+    }
